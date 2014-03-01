@@ -1,5 +1,24 @@
+select {
+  color: transparent;
+}
+
+option {
+  color: transparent;
+}
+
+body {
+  background-image:url('europenight.jpg');
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
 .col-xs-3 {
   padding-left: 0;
+}
+
+.btn {
+  background:none;
+  border:white;
+  box-shadow:none;
 }
 
 .col-xs-5 {
@@ -8,4 +27,21 @@
 
 #show-contact {
   display:none;
+}
+
+h2 {
+  color: #fff;
+}
+
+.container { 
+  color: #fff;
+}
+
+.form-control {
+  /*background-color: #8b7765;*/
+  background-color: transparent;
+}
+
+*::-webkit-input-placeholder {
+  color: #fff;
 }
